@@ -83,8 +83,12 @@ namespace Siccity.GLTFUtility {
 					} else if(mimeType=="image/basis") {
 						var nativeArrayBytes = new NativeArray<byte>(bytes,KtxNativeInstance.defaultAllocator);
 						var basisTex = new BasisUniversalTexture();
-						basisTex.onTextureLoaded += delegate(Texture2D tex) {
-							onFinish(tex); 
+						basisTex.onTextureLoaded += delegate(Texture2D tex, TextureOrientation _) {
+							if(tex==null){
+								Debug.LogError("tex is null");
+							} else {
+								onFinish(tex); 
+							}
 						};
 						IEnumerator en = basisTex.LoadBytesRoutine(nativeArrayBytes,false);
 						while (en.MoveNext()) { yield return null; };
