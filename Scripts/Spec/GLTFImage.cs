@@ -90,7 +90,7 @@ namespace Siccity.GLTFUtility {
 								onFinish(tex); 
 							}
 						};
-						IEnumerator en = basisTex.LoadBytesRoutine(nativeArrayBytes,false);
+						IEnumerator en = basisTex.LoadBytesRoutine(nativeArrayBytes,linear);
 						while (en.MoveNext()) { yield return null; };
 						nativeArrayBytes.Dispose();
 					}
