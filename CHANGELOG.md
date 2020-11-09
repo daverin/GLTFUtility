@@ -1,3 +1,10 @@
+## [1.0.1](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/compare/1.0.0...1.0.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* add changelog meta ([7580ec7](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/commit/7580ec7eac747984e810b911dd1b6d622e5c6c51))
+
 # 1.0.0 (2020-11-09)
 
 
