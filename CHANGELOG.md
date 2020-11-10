@@ -1,3 +1,15 @@
+# [1.1.0](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/compare/1.0.1...1.1.0) (2020-11-10)
+
+
+### Bug Fixes
+
+* update binary ([8559fcd](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/commit/8559fcd46248a050fa7eafbfd08024cf9dbf55bb))
+
+
+### Features
+
+* ios draco ([f54e009](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/commit/f54e009e0b5effcf3617ee318e54c11a1d287e27))
+
 ## [1.0.1](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/compare/1.0.0...1.0.1) (2020-11-09)
 
 
