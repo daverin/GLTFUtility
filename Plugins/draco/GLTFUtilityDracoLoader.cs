@@ -23,7 +23,7 @@ using UnityEngine;
 public unsafe class GLTFUtilityDracoLoader {
 	// These values must be exactly the same as the values in draco_types.h.
 	// Attribute data type.
-	#if UNITY_EDITOR_OSX || UNITY_WEBGL || UNITY_IOS
+	#if  UNITY_WEBGL || (UNITY_IOS && !UNITY_EDITOR_OSX )
         public const string DRACODEC_UNITY_LIB = "__Internal";
     #elif UNITY_ANDROID || UNITY_STANDALONE || UNITY_WSA || UNITY_EDITOR
         public const string DRACODEC_UNITY_LIB = "dracodec_unity";
