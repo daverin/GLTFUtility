@@ -1,3 +1,10 @@
+## [1.1.1](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/compare/1.1.0...1.1.1) (2020-11-11)
+
+
+### Bug Fixes
+
+* repair editor ([4fedd52](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/commit/4fedd527dbd0c09878e2b74572b3c37a0c33efd7))
+
 # [1.1.0](https://gitlab.com/beamm-app/unity/packages/com.beamm.gltf-utility/compare/1.0.1...1.1.0) (2020-11-10)
 
 
